@@ -1,0 +1,21 @@
+[package]
+name = "cobwebs-2024"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.76"
+fdg-sim = { git = "ssh://git@github.com/grantshandy/fdg.git", branch = "dev", version = "0.1.0" }
+geo = "0.27.0"
+intersect2d = "0.4.2"
+localsearch = "0.11.0"
+permutation = "0.4.1"
+
+[dev-dependencies]
+macroquad = "0.4.4"
+nalgebra = "0.32.3"
+rand = "0.8.5"
+serde = { version = "1.0.193", features = ["derive"] }
+serde_json = "1.0.108"
