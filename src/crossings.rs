@@ -58,6 +58,7 @@ where f64: From<T>
     .with_lines(edge_lines.into_iter())?
     .compute()?;
     // .compute_with_permutation(permutation)?;
+  println!("results: {:?}", results.len());
   Ok(results.len())
 }
 

@@ -10,7 +10,7 @@ anyhow = "1.0.76"
 fdg-sim = { version = "0.1.0", path = "../fdg" }
 geo = "0.27.0"
 intersect2d = "0.4.2"
-localsearch = "0.11.0"
+localsearch = { git = "ssh://git@github.com/lucidfrontier45/localsearch.git", version = "0.11.0" }
 permutation = "0.4.1"
 rand = "0.8.5"
 shuffle = "0.1.7"

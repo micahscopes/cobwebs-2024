@@ -57,23 +57,24 @@ async fn main() {
 
     let mut center = Center::default();
     let mut translate = Translate::new(vector![0.0, -100.0]);
-    let mut force = FruchtermanReingold {
-        conf: FruchtermanReingoldConfiguration {
-            scale: 400.0,
-            ..Default::default()
-        },
-        ..Default::default()
-    };
+    // let mut force = FruchtermanReingold {
+    //     conf: FruchtermanReingoldConfiguration {
+    //         scale: 400.0,
+    //         cooloff_factor: 0.8,
+    //         ..Default::default()
+    //     },
+    //     ..Default::default()
+    // };
 
     let mut swapper = Swapper::new(2);
 
     let mut i = 0;
-    let skip = 100;
+    let skip = 10;
 
     loop {
         // apply the fruchterman-reingold force 4 times
-        for _ in 0..4 {
-            force.apply(&mut force_graph);
+        for _ in 0..10 {
+            // force.apply(&mut force_graph);
         }
 
         if i % skip == 0 {
