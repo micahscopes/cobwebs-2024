@@ -9,7 +9,7 @@ where Ix: IndexType
   NodeIndex::<Ix>::new(permutation.apply_idx(node.index()))
 }
 
-pub fn crossings<T: Field, const D: usize, N, E>(graph: &ForceGraph<T, D, N, E>) -> anyhow::Result<usize> 
+pub fn crossings<T: Field, const D: usize, N: Clone, E>(graph: &ForceGraph<T, D, N, E>) -> anyhow::Result<usize> 
 where f64: From<T>
 {
   let edge_lines = graph
@@ -32,9 +32,9 @@ where f64: From<T>
   Ok(results.len())
 }
 
-pub fn crossings_with_permutation<T: Field, const D: usize, N, E>(
+pub fn crossings_with_permutation<T: Field, const D: usize, N: Clone, E>(
   graph: &ForceGraph<T, D, N, E>,
-  permutation: Permutation,
+  permutation: &Permutation,
 ) -> anyhow::Result<usize> 
 where f64: From<T>
 {

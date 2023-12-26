@@ -1,4 +1,4 @@
-use cobwebs_2024::{crossings, crossings_with_permutation};
+use cobwebs_2024::{crossings, crossings_with_permutation, Swapper};
 use permutation::Permutation;
 use ::rand::distributions::Uniform;
 use fdg_sim::{
@@ -65,15 +65,25 @@ async fn main() {
         ..Default::default()
     };
 
+    let mut swapper = Swapper::new(2);
+
+    let mut i = 0;
+    let skip = 100;
+
     loop {
         // apply the fruchterman-reingold force 4 times
         for _ in 0..4 {
             force.apply(&mut force_graph);
         }
 
+        if i % skip == 0 {
+            swapper.apply(&mut force_graph);
+        }
+        i += 1;
+
         // let crossings = crossings(&force_graph).unwrap();
         let permutation = Permutation::one(force_graph.node_count());
-        let crossings = crossings_with_permutation(&force_graph, permutation).unwrap();
+        let crossings = crossings_with_permutation(&force_graph, &permutation).unwrap();
 
         // move the graph mean position to 0,0
         center.apply(&mut force_graph);

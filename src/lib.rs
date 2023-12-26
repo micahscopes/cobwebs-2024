@@ -2,6 +2,7 @@ mod crossings;
 mod swapper;
 
 pub use crossings::*;
+pub use swapper::*;
 
 #[cfg(test)]
 mod tests {
