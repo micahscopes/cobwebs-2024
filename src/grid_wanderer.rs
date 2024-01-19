@@ -10,20 +10,9 @@ use permutation::Permutation;
 use rand::seq::IteratorRandom;
 
 use fdg_sim::petgraph::adj::IndexType;
-use shuffle::irs::Irs;
-use shuffle::shuffler::Shuffler;
 use crate::crossings_with_permutation;
 
-// a cloneable node type
-
-struct CloneableNode<T: Field, const D: usize, N: Clone>(Node<T, D, N>);
-impl<T: Field, const D: usize, N: Clone> Clone for CloneableNode<T, D, N> {
-    fn clone(&self) -> Self {
-        Self(Node (self.0.0.clone(), self.0.1.clone()))
-    }
-}
-
-struct GraphSwapperModel<'a, T: Field, const D: usize, N: Clone, E: Send> {
+struct WanderingGridGraphModel<'a, T: Field, const D: usize, N: Clone, E: Send> {
     graph: &'a ForceGraph<T, D, N, E>,
     neighborhood_size: usize,
     graph_neighbors: Option<HashMap<NodeIndex<u32>, HashSet<NodeIndex<u32>>>>,
@@ -34,7 +23,7 @@ struct GraphSwapperModel<'a, T: Field, const D: usize, N: Clone, E: Send> {
 use fdg_sim::petgraph::visit::Bfs;
 
 impl<'a, T: Field, const D: usize, N: Send + Sync + Clone, E: Send + Sync>
-    GraphSwapperModel<'a, T, D, N, E>
+    WanderingGridGraphModel<'a, T, D, N, E>
 {
     pub fn new(graph: &'a ForceGraph<T, D, N, E>, neighborhood_size: usize) -> Self {
         Self {
@@ -81,7 +70,7 @@ type ScoreType = usize;
 type TransitionType = ();
 
 impl<'a, T: Field, const D: usize, N: Send + Sync + Clone, E: Send + Sync> OptModel
-    for GraphSwapperModel<'a, T, D, N, E>
+    for WanderingGridGraphModel<'a, T, D, N, E>
 where
     f64: From<T>,
 {
@@ -94,30 +83,6 @@ where
         // println!("score: {}, permutation: {:?}", score, state);
         score
     }
-
-    // fn generate_trial_solution<R: rand::Rng>(
-    //     &self,
-    //     current_state: &Self::SolutionType,
-    //     rng: &mut R,
-    //     current_score: Option<Self::ScoreType>,
-    // ) -> (Self::SolutionType, Self::TransitionType, Self::ScoreType) {
-    //     let mut idx = Vec::from_iter(0..self.graph.node_count());
-    //     let a = rng.gen_range(0..idx.len());
-    //     let mut b = 0;
-    //     for _ in 0..1000 {
-    //         b = rng.gen_range(0..idx.len());
-    //         if a != b {
-    //             // idx.swap(a, b);
-    //             break;
-    //         }
-    //     }
-    //     idx.swap(a, b);
-    //     let new_solution = &Permutation::oneline(idx).inverse() * current_state;
-    //     let new_score = self.evaluate_solution(&new_solution);
-    //     let trial = (new_solution, (), new_score);
-    //     // println!("trial: {:?}", trial);
-    //     trial
-    // }
 
     fn generate_trial_solution<R: rand::Rng>(
         &self,
@@ -166,40 +131,18 @@ where
             }
         };
 
-        let scramble_range = [2,4];
-        // scramble a random number of neighbors in the scramble range
-        let n_to_scramble = rng.gen_range(scramble_range[0]..scramble_range[1]);
-
-
         let node_index = node.index() as u32;
-        // let neighbor = neighbors.iter().choose(rng).unwrap_or(&node_index);
-        let random_neighbors = neighbors.iter().choose_multiple(rng, n_to_scramble);
-        let mut random_indices = random_neighbors.iter().map(|node| node.index() as u32).collect::<Vec<_>>();
-        // random_indices.push(node_index);
+        let neighbor = neighbors.iter().choose(rng).unwrap_or(&node_index);
 
-        // scramble their indices
-        let mut irs = Irs::default();
-        // let mut random_indices_scrambled = random_indices.clone();
-        let mut scrambling_indices = Vec::from_iter(0..random_indices.len());
-
-
-        let _ = irs.shuffle(&mut scrambling_indices, rng);
-
-        // println!("random_indices: {:?}, scrambling_indices: {:?}", random_indices, scrambling_indices);
-
-        let mut idx = Vec::from_iter(0..self.graph.node_count());
-        // let a = node.index();
-        // let b = neighbor.index();
-        // idx.swap(a, b);
-
-        for i in 0..random_indices.len() {
-            // println!("exchanging {} with {}", random_indices[i], random_indices[scrambling_indices[i]]);
-            idx[random_indices[i] as usize] = random_indices[scrambling_indices[i]] as usize;
-            // println!("idx: {:?}", idx);
+        if (node.index() as u32) == *neighbor {
+            return (current_solution.clone(), (), current_score.unwrap());
         }
 
-        // println!("scrambled idx: {:?}", idx);
+        let mut idx = Vec::from_iter(0..self.graph.node_count());
+        let a = node.index();
+        let b = neighbor.index();
 
+        idx.swap(a, b);
         let new_solution = &Permutation::oneline(idx).inverse() * current_solution;
         let new_score = self.evaluate_solution(&new_solution);
         let trial = (new_solution, (), new_score);
@@ -278,14 +221,12 @@ where
     f64: From<T>,
 {
     fn apply(&mut self, graph: &mut ForceGraph<T, D, N, E>) {
-        let mut model = GraphSwapperModel {
+        let mut model = WanderingGridGraphModel {
             graph: graph,
             neighborhood_size: self.neighborhood_size,
             graph_neighbors: None,
         };
         model.cache_neighbors();
-        
-        
 
         let callback = |op: OptProgress<SolutionType, ScoreType>| {
             // println!("progress {:?}", op);
@@ -328,7 +269,7 @@ where
                 .collect::<Vec<_>>();
             shuffled_node_weights = shuffled_indices
                 .iter()
-                .map(|&i| Node(node_weights[i].0.clone(), node_weights[i].1.clone()))
+                .map(|&i| node_weights[i].clone())
                 .collect::<Vec<_>>();
             // shuffled_node_weights = best_permutation.apply(node_weights);
             // let shuffled_node_weights: Vec<Node<T, D, N>> = best_permutation.iter().map(|&i| node_weights[i]).collect();
@@ -339,7 +280,7 @@ where
             .node_weights_mut()
             .enumerate()
             .for_each(|(i, node_weight)| {
-                node_weight.1 = shuffled_node_weights[i].1.clone();
+                node_weight.1 = shuffled_node_weights[i].clone().1;
             });
     }
 }

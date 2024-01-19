@@ -1,0 +1,3716 @@
+{
+  "nodes": [
+    {
+      "empty": false,
+      "name": "D neopolitan major",
+      "setNum": 3413,
+      "chroma": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "normalized": "101010101011",
+      "intervals": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "aliases": [],
+      "type": "neopolitan major",
+      "tonic": "D",
+      "notes": [
+        "D",
+        "Eb",
+        "F",
+        "G",
+        "A",
+        "B",
+        "C#"
+      ],
+      "shape": "1,1,2,2,2,2,2",
+      "offset": 0,
+      "complement": [
+        0,
+        4,
+        6,
+        8,
+        10
+      ],
+      "id": "c1-2-3-5-7-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2734
+        },
+        "MAX_BIT": 11
+      },
+      "label": "D neopolitan major",
+      "group": "neopolitan",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Db altered",
+      "setNum": 3498,
+      "chroma": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "normalized": "101010101101",
+      "intervals": [
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "aliases": [
+        "super locrian",
+        "diminished whole tone",
+        "pomeroy"
+      ],
+      "type": "altered",
+      "tonic": "Db",
+      "notes": [
+        "Db",
+        "Ebb",
+        "E",
+        "F",
+        "G",
+        "Bbb",
+        "Cb"
+      ],
+      "shape": "1,2,1,2,2,2,2",
+      "offset": 0,
+      "complement": [
+        0,
+        3,
+        6,
+        8,
+        10
+      ],
+      "id": "c1-2-4-5-7-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2742
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Db altered",
+      "group": "altered",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "D harmonic minor",
+      "setNum": 2905,
+      "chroma": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "normalized": "100110110101",
+      "intervals": [
+        1,
+        2,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "aliases": [],
+      "type": "harmonic minor",
+      "tonic": "D",
+      "notes": [
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "Bb",
+        "C#"
+      ],
+      "shape": "1,2,1,2,2,1,3",
+      "offset": 0,
+      "complement": [
+        0,
+        3,
+        6,
+        8,
+        11
+      ],
+      "id": "c1-2-4-5-7-9-10",
+      "bitset": {
+        "arr": {
+          "0": 1718
+        },
+        "MAX_BIT": 11
+      },
+      "label": "D harmonic minor",
+      "group": "harmonic",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "F major",
+      "setNum": 2773,
+      "chroma": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "normalized": "101010110101",
+      "intervals": [
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "aliases": [
+        "ionian"
+      ],
+      "type": "major",
+      "tonic": "F",
+      "notes": [
+        "F",
+        "G",
+        "A",
+        "Bb",
+        "C",
+        "D",
+        "E"
+      ],
+      "shape": "1,2,2,1,2,2,2",
+      "offset": 2,
+      "complement": [
+        1,
+        3,
+        6,
+        8,
+        11
+      ],
+      "id": "c0-2-4-5-7-9-10",
+      "bitset": {
+        "arr": {
+          "0": 1717
+        },
+        "MAX_BIT": 11
+      },
+      "label": "F major",
+      "group": "major",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "C major",
+      "setNum": 2773,
+      "chroma": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "normalized": "101010110101",
+      "intervals": [
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "aliases": [
+        "ionian"
+      ],
+      "type": "major",
+      "tonic": "C",
+      "notes": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "B"
+      ],
+      "shape": "1,2,2,1,2,2,2",
+      "offset": 6,
+      "complement": [
+        1,
+        3,
+        6,
+        8,
+        10
+      ],
+      "id": "c0-2-4-5-7-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2741
+        },
+        "MAX_BIT": 11
+      },
+      "label": "C major",
+      "group": "major",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "A harmonic minor",
+      "setNum": 2905,
+      "chroma": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9,
+        11
+      ],
+      "normalized": "100110110101",
+      "intervals": [
+        2,
+        2,
+        1,
+        3,
+        1,
+        2,
+        1
+      ],
+      "aliases": [],
+      "type": "harmonic minor",
+      "tonic": "A",
+      "notes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G#"
+      ],
+      "shape": "1,2,1,2,2,1,3",
+      "offset": 4,
+      "complement": [
+        1,
+        3,
+        6,
+        7,
+        10
+      ],
+      "id": "c0-2-4-5-8-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2869
+        },
+        "MAX_BIT": 11
+      },
+      "label": "A harmonic minor",
+      "group": "harmonic",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Ab altered",
+      "setNum": 3498,
+      "chroma": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        9,
+        11
+      ],
+      "normalized": "101010101101",
+      "intervals": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1
+      ],
+      "aliases": [
+        "super locrian",
+        "diminished whole tone",
+        "pomeroy"
+      ],
+      "type": "altered",
+      "tonic": "Ab",
+      "notes": [
+        "Ab",
+        "Bbb",
+        "B",
+        "C",
+        "D",
+        "Fb",
+        "Gb"
+      ],
+      "shape": "1,2,1,2,2,2,2",
+      "offset": 4,
+      "complement": [
+        1,
+        3,
+        5,
+        7,
+        10
+      ],
+      "id": "c0-2-4-6-8-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2901
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Ab altered",
+      "group": "altered",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "E locrian major",
+      "setNum": 2794,
+      "chroma": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        9,
+        10
+      ],
+      "normalized": "101010101011",
+      "intervals": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2
+      ],
+      "aliases": [
+        "arabian"
+      ],
+      "type": "locrian major",
+      "tonic": "E",
+      "notes": [
+        "E",
+        "F#",
+        "G#",
+        "A",
+        "Bb",
+        "C",
+        "D"
+      ],
+      "shape": "1,1,2,2,2,2,2",
+      "offset": 4,
+      "complement": [
+        1,
+        3,
+        5,
+        7,
+        11
+      ],
+      "id": "c0-2-4-6-8-9-10",
+      "bitset": {
+        "arr": {
+          "0": 1877
+        },
+        "MAX_BIT": 11
+      },
+      "label": "E locrian major",
+      "group": "locrian",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Gb altered",
+      "setNum": 3498,
+      "chroma": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        9,
+        10
+      ],
+      "normalized": "101010101101",
+      "intervals": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "aliases": [
+        "super locrian",
+        "diminished whole tone",
+        "pomeroy"
+      ],
+      "type": "altered",
+      "tonic": "Gb",
+      "notes": [
+        "Gb",
+        "Abb",
+        "A",
+        "Bb",
+        "C",
+        "Ebb",
+        "Fb"
+      ],
+      "shape": "1,2,1,2,2,2,2",
+      "offset": 3,
+      "complement": [
+        1,
+        3,
+        5,
+        8,
+        11
+      ],
+      "id": "c0-2-4-6-7-9-10",
+      "bitset": {
+        "arr": {
+          "0": 1749
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Gb altered",
+      "group": "altered",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "G major",
+      "setNum": 2773,
+      "chroma": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        9,
+        11
+      ],
+      "normalized": "101010110101",
+      "intervals": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1
+      ],
+      "aliases": [
+        "ionian"
+      ],
+      "type": "major",
+      "tonic": "G",
+      "notes": [
+        "G",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F#"
+      ],
+      "shape": "1,2,2,1,2,2,2",
+      "offset": 3,
+      "complement": [
+        1,
+        3,
+        5,
+        8,
+        10
+      ],
+      "id": "c0-2-4-6-7-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2773
+        },
+        "MAX_BIT": 11
+      },
+      "label": "G major",
+      "group": "major",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "E harmonic minor",
+      "setNum": 2905,
+      "chroma": [
+        0,
+        3,
+        4,
+        6,
+        7,
+        9,
+        11
+      ],
+      "normalized": "100110110101",
+      "intervals": [
+        3,
+        1,
+        2,
+        1,
+        2,
+        2,
+        1
+      ],
+      "aliases": [],
+      "type": "harmonic minor",
+      "tonic": "E",
+      "notes": [
+        "E",
+        "F#",
+        "G",
+        "A",
+        "B",
+        "C",
+        "D#"
+      ],
+      "shape": "1,2,1,2,2,1,3",
+      "offset": 1,
+      "complement": [
+        1,
+        2,
+        5,
+        8,
+        10
+      ],
+      "id": "c0-3-4-6-7-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2777
+        },
+        "MAX_BIT": 11
+      },
+      "label": "E harmonic minor",
+      "group": "harmonic",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Eb altered",
+      "setNum": 3498,
+      "chroma": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        9,
+        11
+      ],
+      "normalized": "101010101101",
+      "intervals": [
+        2,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "aliases": [
+        "super locrian",
+        "diminished whole tone",
+        "pomeroy"
+      ],
+      "type": "altered",
+      "tonic": "Eb",
+      "notes": [
+        "Eb",
+        "Fb",
+        "F#",
+        "G",
+        "A",
+        "Cb",
+        "Db"
+      ],
+      "shape": "1,2,1,2,2,2,2",
+      "offset": 1,
+      "complement": [
+        0,
+        2,
+        5,
+        8,
+        10
+      ],
+      "id": "c1-3-4-6-7-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2778
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Eb altered",
+      "group": "altered",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "E major",
+      "setNum": 2773,
+      "chroma": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        9,
+        11
+      ],
+      "normalized": "101010110101",
+      "intervals": [
+        2,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "aliases": [
+        "ionian"
+      ],
+      "type": "major",
+      "tonic": "E",
+      "notes": [
+        "E",
+        "F#",
+        "G#",
+        "A",
+        "B",
+        "C#",
+        "D#"
+      ],
+      "shape": "1,2,2,1,2,2,2",
+      "offset": 1,
+      "complement": [
+        0,
+        2,
+        5,
+        7,
+        10
+      ],
+      "id": "c1-3-4-6-8-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2906
+        },
+        "MAX_BIT": 11
+      },
+      "label": "E major",
+      "group": "major",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Db harmonic minor",
+      "setNum": 2905,
+      "chroma": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "normalized": "100110110101",
+      "intervals": [
+        1,
+        2,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "aliases": [],
+      "type": "harmonic minor",
+      "tonic": "Db",
+      "notes": [
+        "Db",
+        "Eb",
+        "Fb",
+        "Gb",
+        "Ab",
+        "Bbb",
+        "C"
+      ],
+      "shape": "1,2,1,2,2,1,3",
+      "offset": 0,
+      "complement": [
+        2,
+        5,
+        7,
+        10,
+        11
+      ],
+      "id": "c0-1-3-4-6-8-9",
+      "bitset": {
+        "arr": {
+          "0": 859
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Db harmonic minor",
+      "group": "harmonic",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "C altered",
+      "setNum": 3498,
+      "chroma": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        8,
+        10
+      ],
+      "normalized": "101010101101",
+      "intervals": [
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "aliases": [
+        "super locrian",
+        "diminished whole tone",
+        "pomeroy"
+      ],
+      "type": "altered",
+      "tonic": "C",
+      "notes": [
+        "C",
+        "Db",
+        "D#",
+        "E",
+        "F#",
+        "Ab",
+        "Bb"
+      ],
+      "shape": "1,2,1,2,2,2,2",
+      "offset": 0,
+      "complement": [
+        2,
+        5,
+        7,
+        9,
+        11
+      ],
+      "id": "c0-1-3-4-6-8-10",
+      "bitset": {
+        "arr": {
+          "0": 1371
+        },
+        "MAX_BIT": 11
+      },
+      "label": "C altered",
+      "group": "altered",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "B major",
+      "setNum": 2773,
+      "chroma": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        10,
+        11
+      ],
+      "normalized": "101010110101",
+      "intervals": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "aliases": [
+        "ionian"
+      ],
+      "type": "major",
+      "tonic": "B",
+      "notes": [
+        "B",
+        "C#",
+        "D#",
+        "E",
+        "F#",
+        "G#",
+        "A#"
+      ],
+      "shape": "1,2,2,1,2,2,2",
+      "offset": 5,
+      "complement": [
+        0,
+        2,
+        5,
+        7,
+        9
+      ],
+      "id": "c1-3-4-6-8-10-11",
+      "bitset": {
+        "arr": {
+          "0": 3418
+        },
+        "MAX_BIT": 11
+      },
+      "label": "B major",
+      "group": "major",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Ab harmonic minor",
+      "setNum": 2905,
+      "chroma": [
+        1,
+        3,
+        4,
+        7,
+        8,
+        10,
+        11
+      ],
+      "normalized": "100110110101",
+      "intervals": [
+        2,
+        1,
+        3,
+        1,
+        2,
+        1,
+        2
+      ],
+      "aliases": [],
+      "type": "harmonic minor",
+      "tonic": "Ab",
+      "notes": [
+        "Ab",
+        "Bb",
+        "Cb",
+        "Db",
+        "Eb",
+        "Fb",
+        "G"
+      ],
+      "shape": "1,2,1,2,2,1,3",
+      "offset": 3,
+      "complement": [
+        0,
+        2,
+        5,
+        6,
+        9
+      ],
+      "id": "c1-3-4-7-8-10-11",
+      "bitset": {
+        "arr": {
+          "0": 3482
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Ab harmonic minor",
+      "group": "harmonic",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "G altered",
+      "setNum": 3498,
+      "chroma": [
+        1,
+        3,
+        5,
+        7,
+        8,
+        10,
+        11
+      ],
+      "normalized": "101010101101",
+      "intervals": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "aliases": [
+        "super locrian",
+        "diminished whole tone",
+        "pomeroy"
+      ],
+      "type": "altered",
+      "tonic": "G",
+      "notes": [
+        "G",
+        "Ab",
+        "A#",
+        "B",
+        "C#",
+        "Eb",
+        "F"
+      ],
+      "shape": "1,2,1,2,2,2,2",
+      "offset": 3,
+      "complement": [
+        0,
+        2,
+        4,
+        6,
+        9
+      ],
+      "id": "c1-3-5-7-8-10-11",
+      "bitset": {
+        "arr": {
+          "0": 3498
+        },
+        "MAX_BIT": 11
+      },
+      "label": "G altered",
+      "group": "altered",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Ab major",
+      "setNum": 2773,
+      "chroma": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "normalized": "101010110101",
+      "intervals": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "aliases": [
+        "ionian"
+      ],
+      "type": "major",
+      "tonic": "Ab",
+      "notes": [
+        "Ab",
+        "Bb",
+        "C",
+        "Db",
+        "Eb",
+        "F",
+        "G"
+      ],
+      "shape": "1,2,2,1,2,2,2",
+      "offset": 4,
+      "complement": [
+        2,
+        4,
+        6,
+        9,
+        11
+      ],
+      "id": "c0-1-3-5-7-8-10",
+      "bitset": {
+        "arr": {
+          "0": 1451
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Ab major",
+      "group": "major",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "A altered",
+      "setNum": 3498,
+      "chroma": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        9,
+        10
+      ],
+      "normalized": "101010101101",
+      "intervals": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "aliases": [
+        "super locrian",
+        "diminished whole tone",
+        "pomeroy"
+      ],
+      "type": "altered",
+      "tonic": "A",
+      "notes": [
+        "A",
+        "Bb",
+        "B#",
+        "C#",
+        "D#",
+        "F",
+        "G"
+      ],
+      "shape": "1,2,1,2,2,2,2",
+      "offset": 5,
+      "complement": [
+        2,
+        4,
+        6,
+        8,
+        11
+      ],
+      "id": "c0-1-3-5-7-9-10",
+      "bitset": {
+        "arr": {
+          "0": 1707
+        },
+        "MAX_BIT": 11
+      },
+      "label": "A altered",
+      "group": "altered",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "F locrian major",
+      "setNum": 2794,
+      "chroma": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        10,
+        11
+      ],
+      "normalized": "101010101011",
+      "intervals": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2
+      ],
+      "aliases": [
+        "arabian"
+      ],
+      "type": "locrian major",
+      "tonic": "F",
+      "notes": [
+        "F",
+        "G",
+        "A",
+        "Bb",
+        "Cb",
+        "Db",
+        "Eb"
+      ],
+      "shape": "1,1,2,2,2,2,2",
+      "offset": 4,
+      "complement": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "id": "c1-3-5-7-9-10-11",
+      "bitset": {
+        "arr": {
+          "0": 3754
+        },
+        "MAX_BIT": 11
+      },
+      "label": "F locrian major",
+      "group": "locrian",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "C neopolitan major",
+      "setNum": 3413,
+      "chroma": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "normalized": "101010101011",
+      "intervals": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "aliases": [],
+      "type": "neopolitan major",
+      "tonic": "C",
+      "notes": [
+        "C",
+        "Db",
+        "Eb",
+        "F",
+        "G",
+        "A",
+        "B"
+      ],
+      "shape": "1,1,2,2,2,2,2",
+      "offset": 6,
+      "complement": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "id": "c0-1-3-5-7-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2731
+        },
+        "MAX_BIT": 11
+      },
+      "label": "C neopolitan major",
+      "group": "neopolitan",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "B altered",
+      "setNum": 3498,
+      "chroma": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "normalized": "101010101101",
+      "intervals": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "aliases": [
+        "super locrian",
+        "diminished whole tone",
+        "pomeroy"
+      ],
+      "type": "altered",
+      "tonic": "B",
+      "notes": [
+        "B",
+        "C",
+        "C##",
+        "D#",
+        "E#",
+        "G",
+        "A"
+      ],
+      "shape": "1,2,1,2,2,2,2",
+      "offset": 6,
+      "complement": [
+        1,
+        4,
+        6,
+        8,
+        10
+      ],
+      "id": "c0-2-3-5-7-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2733
+        },
+        "MAX_BIT": 11
+      },
+      "label": "B altered",
+      "group": "altered",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Bb major",
+      "setNum": 2773,
+      "chroma": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10
+      ],
+      "normalized": "101010110101",
+      "intervals": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "aliases": [
+        "ionian"
+      ],
+      "type": "major",
+      "tonic": "Bb",
+      "notes": [
+        "Bb",
+        "C",
+        "D",
+        "Eb",
+        "F",
+        "G",
+        "A"
+      ],
+      "shape": "1,2,2,1,2,2,2",
+      "offset": 5,
+      "complement": [
+        1,
+        4,
+        6,
+        8,
+        11
+      ],
+      "id": "c0-2-3-5-7-9-10",
+      "bitset": {
+        "arr": {
+          "0": 1709
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Bb major",
+      "group": "major",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Eb major",
+      "setNum": 2773,
+      "chroma": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "normalized": "101010110101",
+      "intervals": [
+        2,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "aliases": [
+        "ionian"
+      ],
+      "type": "major",
+      "tonic": "Eb",
+      "notes": [
+        "Eb",
+        "F",
+        "G",
+        "Ab",
+        "Bb",
+        "C",
+        "D"
+      ],
+      "shape": "1,2,2,1,2,2,2",
+      "offset": 1,
+      "complement": [
+        1,
+        4,
+        6,
+        9,
+        11
+      ],
+      "id": "c0-2-3-5-7-8-10",
+      "bitset": {
+        "arr": {
+          "0": 1453
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Eb major",
+      "group": "major",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "C harmonic minor",
+      "setNum": 2905,
+      "chroma": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        11
+      ],
+      "normalized": "100110110101",
+      "intervals": [
+        2,
+        1,
+        2,
+        2,
+        1,
+        3,
+        1
+      ],
+      "aliases": [],
+      "type": "harmonic minor",
+      "tonic": "C",
+      "notes": [
+        "C",
+        "D",
+        "Eb",
+        "F",
+        "G",
+        "Ab",
+        "B"
+      ],
+      "shape": "1,2,1,2,2,1,3",
+      "offset": 6,
+      "complement": [
+        1,
+        4,
+        6,
+        9,
+        10
+      ],
+      "id": "c0-2-3-5-7-8-11",
+      "bitset": {
+        "arr": {
+          "0": 2477
+        },
+        "MAX_BIT": 11
+      },
+      "label": "C harmonic minor",
+      "group": "harmonic",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "D altered",
+      "setNum": 3498,
+      "chroma": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8,
+        10
+      ],
+      "normalized": "101010101101",
+      "intervals": [
+        2,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "aliases": [
+        "super locrian",
+        "diminished whole tone",
+        "pomeroy"
+      ],
+      "type": "altered",
+      "tonic": "D",
+      "notes": [
+        "D",
+        "Eb",
+        "E#",
+        "F#",
+        "G#",
+        "Bb",
+        "C"
+      ],
+      "shape": "1,2,1,2,2,2,2",
+      "offset": 1,
+      "complement": [
+        1,
+        4,
+        7,
+        9,
+        11
+      ],
+      "id": "c0-2-3-5-6-8-10",
+      "bitset": {
+        "arr": {
+          "0": 1389
+        },
+        "MAX_BIT": 11
+      },
+      "label": "D altered",
+      "group": "altered",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Eb harmonic minor",
+      "setNum": 2905,
+      "chroma": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        10,
+        11
+      ],
+      "normalized": "100110110101",
+      "intervals": [
+        1,
+        2,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "aliases": [],
+      "type": "harmonic minor",
+      "tonic": "Eb",
+      "notes": [
+        "Eb",
+        "F",
+        "Gb",
+        "Ab",
+        "Bb",
+        "Cb",
+        "D"
+      ],
+      "shape": "1,2,1,2,2,1,3",
+      "offset": 0,
+      "complement": [
+        0,
+        1,
+        4,
+        7,
+        9
+      ],
+      "id": "c2-3-5-6-8-10-11",
+      "bitset": {
+        "arr": {
+          "0": 3436
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Eb harmonic minor",
+      "group": "harmonic",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Gb major",
+      "setNum": 2773,
+      "chroma": [
+        1,
+        3,
+        5,
+        6,
+        8,
+        10,
+        11
+      ],
+      "normalized": "101010110101",
+      "intervals": [
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "aliases": [
+        "ionian"
+      ],
+      "type": "major",
+      "tonic": "Gb",
+      "notes": [
+        "Gb",
+        "Ab",
+        "Bb",
+        "Cb",
+        "Db",
+        "Eb",
+        "F"
+      ],
+      "shape": "1,2,2,1,2,2,2",
+      "offset": 2,
+      "complement": [
+        0,
+        2,
+        4,
+        7,
+        9
+      ],
+      "id": "c1-3-5-6-8-10-11",
+      "bitset": {
+        "arr": {
+          "0": 3434
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Gb major",
+      "group": "major",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Db major",
+      "setNum": 2773,
+      "chroma": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10
+      ],
+      "normalized": "101010110101",
+      "intervals": [
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "aliases": [
+        "ionian"
+      ],
+      "type": "major",
+      "tonic": "Db",
+      "notes": [
+        "Db",
+        "Eb",
+        "F",
+        "Gb",
+        "Ab",
+        "Bb",
+        "C"
+      ],
+      "shape": "1,2,2,1,2,2,2",
+      "offset": 0,
+      "complement": [
+        2,
+        4,
+        7,
+        9,
+        11
+      ],
+      "id": "c0-1-3-5-6-8-10",
+      "bitset": {
+        "arr": {
+          "0": 1387
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Db major",
+      "group": "major",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Bb harmonic minor",
+      "setNum": 2905,
+      "chroma": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "normalized": "100110110101",
+      "intervals": [
+        1,
+        2,
+        2,
+        1,
+        3,
+        1,
+        2
+      ],
+      "aliases": [],
+      "type": "harmonic minor",
+      "tonic": "Bb",
+      "notes": [
+        "Bb",
+        "C",
+        "Db",
+        "Eb",
+        "F",
+        "Gb",
+        "A"
+      ],
+      "shape": "1,2,1,2,2,1,3",
+      "offset": 5,
+      "complement": [
+        2,
+        4,
+        7,
+        8,
+        11
+      ],
+      "id": "c0-1-3-5-6-9-10",
+      "bitset": {
+        "arr": {
+          "0": 1643
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Bb harmonic minor",
+      "group": "harmonic",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "F altered",
+      "setNum": 3498,
+      "chroma": [
+        1,
+        3,
+        5,
+        6,
+        8,
+        9,
+        11
+      ],
+      "normalized": "101010101101",
+      "intervals": [
+        2,
+        2,
+        1,
+        2,
+        1,
+        2,
+        2
+      ],
+      "aliases": [
+        "super locrian",
+        "diminished whole tone",
+        "pomeroy"
+      ],
+      "type": "altered",
+      "tonic": "F",
+      "notes": [
+        "F",
+        "Gb",
+        "G#",
+        "A",
+        "B",
+        "Db",
+        "Eb"
+      ],
+      "shape": "1,2,1,2,2,2,2",
+      "offset": 2,
+      "complement": [
+        0,
+        2,
+        4,
+        7,
+        10
+      ],
+      "id": "c1-3-5-6-8-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2922
+        },
+        "MAX_BIT": 11
+      },
+      "label": "F altered",
+      "group": "altered",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Db locrian major",
+      "setNum": 2794,
+      "chroma": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        9,
+        11
+      ],
+      "normalized": "101010101011",
+      "intervals": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "aliases": [
+        "arabian"
+      ],
+      "type": "locrian major",
+      "tonic": "Db",
+      "notes": [
+        "Db",
+        "Eb",
+        "F",
+        "Gb",
+        "Abb",
+        "Bbb",
+        "Cb"
+      ],
+      "shape": "1,1,2,2,2,2,2",
+      "offset": 2,
+      "complement": [
+        0,
+        2,
+        4,
+        8,
+        10
+      ],
+      "id": "c1-3-5-6-7-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2794
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Db locrian major",
+      "group": "locrian",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Eb locrian major",
+      "setNum": 2794,
+      "chroma": [
+        1,
+        3,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "normalized": "101010101011",
+      "intervals": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2
+      ],
+      "aliases": [
+        "arabian"
+      ],
+      "type": "locrian major",
+      "tonic": "Eb",
+      "notes": [
+        "Eb",
+        "F",
+        "G",
+        "Ab",
+        "Bbb",
+        "Cb",
+        "Db"
+      ],
+      "shape": "1,1,2,2,2,2,2",
+      "offset": 3,
+      "complement": [
+        0,
+        2,
+        4,
+        6,
+        10
+      ],
+      "id": "c1-3-5-7-8-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2986
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Eb locrian major",
+      "group": "locrian",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Gb harmonic minor",
+      "setNum": 2905,
+      "chroma": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        9,
+        11
+      ],
+      "normalized": "100110110101",
+      "intervals": [
+        1,
+        3,
+        1,
+        2,
+        1,
+        2,
+        2
+      ],
+      "aliases": [],
+      "type": "harmonic minor",
+      "tonic": "Gb",
+      "notes": [
+        "Gb",
+        "Ab",
+        "Bbb",
+        "Cb",
+        "Db",
+        "Ebb",
+        "F"
+      ],
+      "shape": "1,2,1,2,2,1,3",
+      "offset": 2,
+      "complement": [
+        0,
+        3,
+        4,
+        7,
+        10
+      ],
+      "id": "c1-2-5-6-8-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2918
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Gb harmonic minor",
+      "group": "harmonic",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "A major",
+      "setNum": 2773,
+      "chroma": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        9,
+        11
+      ],
+      "normalized": "101010110101",
+      "intervals": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "aliases": [
+        "ionian"
+      ],
+      "type": "major",
+      "tonic": "A",
+      "notes": [
+        "A",
+        "B",
+        "C#",
+        "D",
+        "E",
+        "F#",
+        "G#"
+      ],
+      "shape": "1,2,2,1,2,2,2",
+      "offset": 4,
+      "complement": [
+        0,
+        3,
+        5,
+        7,
+        10
+      ],
+      "id": "c1-2-4-6-8-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2902
+        },
+        "MAX_BIT": 11
+      },
+      "label": "A major",
+      "group": "major",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Bb altered",
+      "setNum": 3498,
+      "chroma": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        11
+      ],
+      "normalized": "101010101101",
+      "intervals": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "aliases": [
+        "super locrian",
+        "diminished whole tone",
+        "pomeroy"
+      ],
+      "type": "altered",
+      "tonic": "Bb",
+      "notes": [
+        "Bb",
+        "Cb",
+        "C#",
+        "D",
+        "E",
+        "Gb",
+        "Ab"
+      ],
+      "shape": "1,2,1,2,2,2,2",
+      "offset": 5,
+      "complement": [
+        0,
+        3,
+        5,
+        7,
+        9
+      ],
+      "id": "c1-2-4-6-8-10-11",
+      "bitset": {
+        "arr": {
+          "0": 3414
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Bb altered",
+      "group": "altered",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Db neopolitan major",
+      "setNum": 3413,
+      "chroma": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "normalized": "101010101011",
+      "intervals": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "aliases": [],
+      "type": "neopolitan major",
+      "tonic": "Db",
+      "notes": [
+        "Db",
+        "Ebb",
+        "Fb",
+        "Gb",
+        "Ab",
+        "Bb",
+        "C"
+      ],
+      "shape": "1,1,2,2,2,2,2",
+      "offset": 0,
+      "complement": [
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "id": "c0-1-2-4-6-8-10",
+      "bitset": {
+        "arr": {
+          "0": 1367
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Db neopolitan major",
+      "group": "neopolitan",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "B harmonic minor",
+      "setNum": 2905,
+      "chroma": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        10,
+        11
+      ],
+      "normalized": "100110110101",
+      "intervals": [
+        1,
+        2,
+        2,
+        1,
+        3,
+        1,
+        2
+      ],
+      "aliases": [],
+      "type": "harmonic minor",
+      "tonic": "B",
+      "notes": [
+        "B",
+        "C#",
+        "D",
+        "E",
+        "F#",
+        "G",
+        "A#"
+      ],
+      "shape": "1,2,1,2,2,1,3",
+      "offset": 5,
+      "complement": [
+        0,
+        3,
+        5,
+        8,
+        9
+      ],
+      "id": "c1-2-4-6-7-10-11",
+      "bitset": {
+        "arr": {
+          "0": 3286
+        },
+        "MAX_BIT": 11
+      },
+      "label": "B harmonic minor",
+      "group": "harmonic",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "D major",
+      "setNum": 2773,
+      "chroma": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        9,
+        11
+      ],
+      "normalized": "101010110101",
+      "intervals": [
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "aliases": [
+        "ionian"
+      ],
+      "type": "major",
+      "tonic": "D",
+      "notes": [
+        "D",
+        "E",
+        "F#",
+        "G",
+        "A",
+        "B",
+        "C#"
+      ],
+      "shape": "1,2,2,1,2,2,2",
+      "offset": 0,
+      "complement": [
+        0,
+        3,
+        5,
+        8,
+        10
+      ],
+      "id": "c1-2-4-6-7-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2774
+        },
+        "MAX_BIT": 11
+      },
+      "label": "D major",
+      "group": "major",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Gb locrian major",
+      "setNum": 2794,
+      "chroma": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        11
+      ],
+      "normalized": "101010101011",
+      "intervals": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "aliases": [
+        "arabian"
+      ],
+      "type": "locrian major",
+      "tonic": "Gb",
+      "notes": [
+        "Gb",
+        "Ab",
+        "Bb",
+        "Cb",
+        "Dbb",
+        "Ebb",
+        "Fb"
+      ],
+      "shape": "1,1,2,2,2,2,2",
+      "offset": 5,
+      "complement": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "id": "c0-2-4-6-8-10-11",
+      "bitset": {
+        "arr": {
+          "0": 3413
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Gb locrian major",
+      "group": "locrian",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "Eb neopolitan major",
+      "setNum": 3413,
+      "chroma": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        8,
+        10
+      ],
+      "normalized": "101010101011",
+      "intervals": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "aliases": [],
+      "type": "neopolitan major",
+      "tonic": "Eb",
+      "notes": [
+        "Eb",
+        "Fb",
+        "Gb",
+        "Ab",
+        "Bb",
+        "C",
+        "D"
+      ],
+      "shape": "1,1,2,2,2,2,2",
+      "offset": 1,
+      "complement": [
+        1,
+        5,
+        7,
+        9,
+        11
+      ],
+      "id": "c0-2-3-4-6-8-10",
+      "bitset": {
+        "arr": {
+          "0": 1373
+        },
+        "MAX_BIT": 11
+      },
+      "label": "Eb neopolitan major",
+      "group": "neopolitan",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "C locrian major",
+      "setNum": 2794,
+      "chroma": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        8,
+        10
+      ],
+      "normalized": "101010101011",
+      "intervals": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "aliases": [
+        "arabian"
+      ],
+      "type": "locrian major",
+      "tonic": "C",
+      "notes": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "Gb",
+        "Ab",
+        "Bb"
+      ],
+      "shape": "1,1,2,2,2,2,2",
+      "offset": 2,
+      "complement": [
+        1,
+        3,
+        7,
+        9,
+        11
+      ],
+      "id": "c0-2-4-5-6-8-10",
+      "bitset": {
+        "arr": {
+          "0": 1397
+        },
+        "MAX_BIT": 11
+      },
+      "label": "C locrian major",
+      "group": "locrian",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "E altered",
+      "setNum": 3498,
+      "chroma": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        8,
+        10
+      ],
+      "normalized": "101010101101",
+      "intervals": [
+        2,
+        2,
+        1,
+        2,
+        1,
+        2,
+        2
+      ],
+      "aliases": [
+        "super locrian",
+        "diminished whole tone",
+        "pomeroy"
+      ],
+      "type": "altered",
+      "tonic": "E",
+      "notes": [
+        "E",
+        "F",
+        "F##",
+        "G#",
+        "A#",
+        "C",
+        "D"
+      ],
+      "shape": "1,2,1,2,2,2,2",
+      "offset": 2,
+      "complement": [
+        1,
+        3,
+        6,
+        9,
+        11
+      ],
+      "id": "c0-2-4-5-7-8-10",
+      "bitset": {
+        "arr": {
+          "0": 1461
+        },
+        "MAX_BIT": 11
+      },
+      "label": "E altered",
+      "group": "altered",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "D locrian major",
+      "setNum": 2794,
+      "chroma": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        8,
+        10
+      ],
+      "normalized": "101010101011",
+      "intervals": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2
+      ],
+      "aliases": [
+        "arabian"
+      ],
+      "type": "locrian major",
+      "tonic": "D",
+      "notes": [
+        "D",
+        "E",
+        "F#",
+        "G",
+        "Ab",
+        "Bb",
+        "C"
+      ],
+      "shape": "1,1,2,2,2,2,2",
+      "offset": 3,
+      "complement": [
+        1,
+        3,
+        5,
+        9,
+        11
+      ],
+      "id": "c0-2-4-6-7-8-10",
+      "bitset": {
+        "arr": {
+          "0": 1493
+        },
+        "MAX_BIT": 11
+      },
+      "label": "D locrian major",
+      "group": "locrian",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "F harmonic minor",
+      "setNum": 2905,
+      "chroma": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        8,
+        10
+      ],
+      "normalized": "100110110101",
+      "intervals": [
+        1,
+        3,
+        1,
+        2,
+        1,
+        2,
+        2
+      ],
+      "aliases": [],
+      "type": "harmonic minor",
+      "tonic": "F",
+      "notes": [
+        "F",
+        "G",
+        "Ab",
+        "Bb",
+        "C",
+        "Db",
+        "E"
+      ],
+      "shape": "1,2,1,2,2,1,3",
+      "offset": 2,
+      "complement": [
+        2,
+        3,
+        6,
+        9,
+        11
+      ],
+      "id": "c0-1-4-5-7-8-10",
+      "bitset": {
+        "arr": {
+          "0": 1459
+        },
+        "MAX_BIT": 11
+      },
+      "label": "F harmonic minor",
+      "group": "harmonic",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "G harmonic minor",
+      "setNum": 2905,
+      "chroma": [
+        0,
+        2,
+        3,
+        6,
+        7,
+        9,
+        10
+      ],
+      "normalized": "100110110101",
+      "intervals": [
+        2,
+        1,
+        3,
+        1,
+        2,
+        1,
+        2
+      ],
+      "aliases": [],
+      "type": "harmonic minor",
+      "tonic": "G",
+      "notes": [
+        "G",
+        "A",
+        "Bb",
+        "C",
+        "D",
+        "Eb",
+        "F#"
+      ],
+      "shape": "1,2,1,2,2,1,3",
+      "offset": 3,
+      "complement": [
+        1,
+        4,
+        5,
+        8,
+        11
+      ],
+      "id": "c0-2-3-6-7-9-10",
+      "bitset": {
+        "arr": {
+          "0": 1741
+        },
+        "MAX_BIT": 11
+      },
+      "label": "G harmonic minor",
+      "group": "harmonic",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "empty": false,
+      "name": "E neopolitan major",
+      "setNum": 3413,
+      "chroma": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "normalized": "101010101011",
+      "intervals": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "aliases": [],
+      "type": "neopolitan major",
+      "tonic": "E",
+      "notes": [
+        "E",
+        "F",
+        "G",
+        "A",
+        "B",
+        "C#",
+        "D#"
+      ],
+      "shape": "1,1,2,2,2,2,2",
+      "offset": 1,
+      "complement": [
+        0,
+        2,
+        6,
+        8,
+        10
+      ],
+      "id": "c1-3-4-5-7-9-11",
+      "bitset": {
+        "arr": {
+          "0": 2746
+        },
+        "MAX_BIT": 11
+      },
+      "label": "E neopolitan major",
+      "group": "neopolitan",
+      "raised": "[1,3,6,8,10]",
+      "lol": "wtf",
+      "width": 100,
+      "height": 100
+    }
+  ],
+  "links": [
+    {
+      "source": "c1-2-3-5-7-9-11",
+      "target": "c0-2-3-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-3-5-7-9-11",
+      "target": "c1-2-4-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-5-7-9-11",
+      "target": "c0-2-4-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-5-7-9-11",
+      "target": "c1-3-4-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-5-7-9-11",
+      "target": "c1-2-3-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-5-7-9-11",
+      "target": "c1-2-4-6-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-5-7-9-11",
+      "target": "c1-2-4-5-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-5-7-9-10",
+      "target": "c0-2-4-5-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-5-7-9-10",
+      "target": "c1-2-4-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-5-7-9-10",
+      "target": "c1-2-4-5-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-5-7-9-10",
+      "target": "c0-2-3-5-7-9-10",
+      "group": "major"
+    },
+    {
+      "source": "c0-2-4-5-7-9-10",
+      "target": "c0-2-4-6-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-5-7-9-10",
+      "target": "c0-2-4-5-7-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-5-7-9-10",
+      "target": "c0-2-4-5-7-9-11",
+      "group": "major"
+    },
+    {
+      "source": "c0-2-4-5-7-9-11",
+      "target": "c1-2-4-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-5-7-9-11",
+      "target": "c0-2-3-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-5-7-9-11",
+      "target": "c0-2-4-6-7-9-11",
+      "group": "major"
+    },
+    {
+      "source": "c0-2-4-5-7-9-11",
+      "target": "c0-2-4-5-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-5-7-9-11",
+      "target": "c0-2-4-5-7-9-10",
+      "group": "major"
+    },
+    {
+      "source": "c0-2-4-5-8-9-11",
+      "target": "c0-2-4-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-5-8-9-11",
+      "target": "c0-2-4-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-8-9-11",
+      "target": "c1-2-4-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-8-9-11",
+      "target": "c0-2-4-5-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-8-9-11",
+      "target": "c0-2-4-6-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-8-9-11",
+      "target": "c0-2-4-6-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-8-9-11",
+      "target": "c0-2-4-6-8-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-8-9-10",
+      "target": "c0-2-4-6-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-8-9-10",
+      "target": "c0-2-4-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-7-9-10",
+      "target": "c0-2-3-6-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-7-9-10",
+      "target": "c0-2-4-5-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-7-9-10",
+      "target": "c0-2-4-6-8-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-7-9-10",
+      "target": "c0-2-4-6-7-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-7-9-10",
+      "target": "c0-2-4-6-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-7-9-11",
+      "target": "c1-2-4-6-7-9-11",
+      "group": "major"
+    },
+    {
+      "source": "c0-2-4-6-7-9-11",
+      "target": "c0-3-4-6-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-7-9-11",
+      "target": "c0-2-4-5-7-9-11",
+      "group": "major"
+    },
+    {
+      "source": "c0-2-4-6-7-9-11",
+      "target": "c0-2-4-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-7-9-11",
+      "target": "c0-2-4-6-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-3-4-6-7-9-11",
+      "target": "c1-3-4-6-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-3-4-6-7-9-11",
+      "target": "c0-2-4-6-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-4-6-7-9-11",
+      "target": "c0-3-4-6-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-4-6-7-9-11",
+      "target": "c1-2-4-6-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-4-6-7-9-11",
+      "target": "c1-3-5-6-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-4-6-7-9-11",
+      "target": "c1-3-4-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-4-6-7-9-11",
+      "target": "c1-3-4-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-4-6-8-9-11",
+      "target": "c1-2-4-6-8-9-11",
+      "group": "major"
+    },
+    {
+      "source": "c1-3-4-6-8-9-11",
+      "target": "c1-3-5-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-4-6-8-9-11",
+      "target": "c1-3-4-6-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-4-6-8-9-11",
+      "target": "c1-3-4-6-8-10-11",
+      "group": "major"
+    },
+    {
+      "source": "c1-3-4-6-8-9-11",
+      "target": "c0-1-3-4-6-8-9",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-4-6-8-9",
+      "target": "c0-1-3-4-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-4-6-8-9",
+      "target": "c1-3-4-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-4-6-8-10",
+      "target": "c0-2-3-4-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-4-6-8-10",
+      "target": "c0-1-2-4-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-4-6-8-10",
+      "target": "c0-1-3-5-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-4-6-8-10",
+      "target": "c0-1-3-4-6-8-9",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-4-6-8-10",
+      "target": "c1-3-4-6-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-4-6-8-10-11",
+      "target": "c1-2-4-6-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-4-6-8-10-11",
+      "target": "c1-3-5-6-8-10-11",
+      "group": "major"
+    },
+    {
+      "source": "c1-3-4-6-8-10-11",
+      "target": "c1-3-4-7-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-4-6-8-10-11",
+      "target": "c1-3-4-6-8-9-11",
+      "group": "major"
+    },
+    {
+      "source": "c1-3-4-6-8-10-11",
+      "target": "c0-1-3-4-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-4-7-8-10-11",
+      "target": "c1-3-5-7-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-4-7-8-10-11",
+      "target": "c1-3-4-6-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-7-8-10-11",
+      "target": "c1-3-4-7-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-7-8-10-11",
+      "target": "c1-3-5-6-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-7-8-10-11",
+      "target": "c1-3-5-7-9-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-7-8-10-11",
+      "target": "c1-3-5-7-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-7-8-10-11",
+      "target": "c0-1-3-5-7-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-5-7-8-10",
+      "target": "c0-2-3-5-7-8-10",
+      "group": "major"
+    },
+    {
+      "source": "c0-1-3-5-7-8-10",
+      "target": "c0-1-4-5-7-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-5-7-8-10",
+      "target": "c0-1-3-5-6-8-10",
+      "group": "major"
+    },
+    {
+      "source": "c0-1-3-5-7-8-10",
+      "target": "c0-1-3-5-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-5-7-8-10",
+      "target": "c1-3-5-7-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-5-7-9-10",
+      "target": "c0-2-3-5-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-5-7-9-10",
+      "target": "c0-1-3-5-6-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-5-7-9-10",
+      "target": "c0-1-3-5-7-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-5-7-9-10",
+      "target": "c0-1-3-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-5-7-9-10",
+      "target": "c1-3-5-7-9-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-7-9-10-11",
+      "target": "c1-3-5-7-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-7-9-10-11",
+      "target": "c0-1-3-5-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-5-7-9-11",
+      "target": "c0-2-3-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-5-7-9-11",
+      "target": "c0-1-3-5-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-7-9-11",
+      "target": "c1-2-3-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-7-9-11",
+      "target": "c0-1-3-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-7-9-11",
+      "target": "c0-2-4-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-7-9-11",
+      "target": "c0-2-3-5-7-8-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-7-9-11",
+      "target": "c0-2-3-5-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-7-9-10",
+      "target": "c0-1-3-5-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-7-9-10",
+      "target": "c0-2-4-5-7-9-10",
+      "group": "major"
+    },
+    {
+      "source": "c0-2-3-5-7-9-10",
+      "target": "c0-2-3-6-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-7-9-10",
+      "target": "c0-2-3-5-7-8-10",
+      "group": "major"
+    },
+    {
+      "source": "c0-2-3-5-7-9-10",
+      "target": "c0-2-3-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-7-8-10",
+      "target": "c0-1-3-5-7-8-10",
+      "group": "major"
+    },
+    {
+      "source": "c0-2-3-5-7-8-10",
+      "target": "c0-2-4-5-7-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-7-8-10",
+      "target": "c0-2-3-5-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-7-8-10",
+      "target": "c0-2-3-5-7-9-10",
+      "group": "major"
+    },
+    {
+      "source": "c0-2-3-5-7-8-10",
+      "target": "c0-2-3-5-7-8-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-7-8-11",
+      "target": "c0-2-3-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-7-8-11",
+      "target": "c0-2-3-5-7-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-6-8-10",
+      "target": "c0-1-3-5-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-6-8-10",
+      "target": "c0-2-4-5-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-6-8-10",
+      "target": "c0-2-3-4-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-6-8-10",
+      "target": "c0-2-3-5-7-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-5-6-8-10",
+      "target": "c2-3-5-6-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c2-3-5-6-8-10-11",
+      "target": "c1-3-5-6-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c2-3-5-6-8-10-11",
+      "target": "c0-2-3-5-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-6-8-10-11",
+      "target": "c2-3-5-6-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-6-8-10-11",
+      "target": "c1-3-4-6-8-10-11",
+      "group": "major"
+    },
+    {
+      "source": "c1-3-5-6-8-10-11",
+      "target": "c1-3-5-7-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-6-8-10-11",
+      "target": "c1-3-5-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-6-8-10-11",
+      "target": "c0-1-3-5-6-8-10",
+      "group": "major"
+    },
+    {
+      "source": "c0-1-3-5-6-8-10",
+      "target": "c0-2-3-5-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-5-6-8-10",
+      "target": "c0-1-3-4-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-5-6-8-10",
+      "target": "c0-1-3-5-7-8-10",
+      "group": "major"
+    },
+    {
+      "source": "c0-1-3-5-6-8-10",
+      "target": "c0-1-3-5-6-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-5-6-8-10",
+      "target": "c1-3-5-6-8-10-11",
+      "group": "major"
+    },
+    {
+      "source": "c0-1-3-5-6-9-10",
+      "target": "c0-1-3-5-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-3-5-6-9-10",
+      "target": "c0-1-3-5-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-6-8-9-11",
+      "target": "c1-2-5-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-6-8-9-11",
+      "target": "c1-3-4-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-6-8-9-11",
+      "target": "c1-3-5-7-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-6-8-9-11",
+      "target": "c1-3-5-6-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-6-8-9-11",
+      "target": "c1-3-5-6-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-6-7-9-11",
+      "target": "c1-3-4-6-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-6-7-9-11",
+      "target": "c1-3-5-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-7-8-9-11",
+      "target": "c1-3-5-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-5-7-8-9-11",
+      "target": "c1-3-5-7-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-5-6-8-9-11",
+      "target": "c1-3-5-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-5-6-8-9-11",
+      "target": "c1-2-4-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-6-8-9-11",
+      "target": "c0-2-4-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-6-8-9-11",
+      "target": "c1-3-4-6-8-9-11",
+      "group": "major"
+    },
+    {
+      "source": "c1-2-4-6-8-9-11",
+      "target": "c1-2-5-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-6-8-9-11",
+      "target": "c1-2-4-6-7-9-11",
+      "group": "major"
+    },
+    {
+      "source": "c1-2-4-6-8-9-11",
+      "target": "c1-2-4-6-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-6-8-10-11",
+      "target": "c0-2-4-6-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-6-8-10-11",
+      "target": "c1-3-4-6-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-6-8-10-11",
+      "target": "c1-2-4-6-7-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-6-8-10-11",
+      "target": "c1-2-4-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-6-8-10-11",
+      "target": "c0-1-2-4-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-2-4-6-8-10",
+      "target": "c0-1-3-4-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-2-4-6-8-10",
+      "target": "c1-2-4-6-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-6-7-10-11",
+      "target": "c1-2-4-6-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-6-7-10-11",
+      "target": "c1-2-4-6-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-6-7-9-11",
+      "target": "c0-2-4-6-7-9-11",
+      "group": "major"
+    },
+    {
+      "source": "c1-2-4-6-7-9-11",
+      "target": "c1-3-4-6-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-6-7-9-11",
+      "target": "c1-2-4-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-2-4-6-7-9-11",
+      "target": "c1-2-4-6-8-9-11",
+      "group": "major"
+    },
+    {
+      "source": "c1-2-4-6-7-9-11",
+      "target": "c1-2-4-6-7-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-8-10-11",
+      "target": "c1-2-4-6-8-10-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-8-10-11",
+      "target": "c0-2-4-6-8-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-4-6-8-10",
+      "target": "c0-1-3-4-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-4-6-8-10",
+      "target": "c0-2-3-5-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-5-6-8-10",
+      "target": "c0-2-3-5-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-5-6-8-10",
+      "target": "c0-2-4-5-7-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-5-7-8-10",
+      "target": "c0-1-4-5-7-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-5-7-8-10",
+      "target": "c0-2-3-5-7-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-5-7-8-10",
+      "target": "c0-2-4-6-7-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-5-7-8-10",
+      "target": "c0-2-4-5-6-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-5-7-8-10",
+      "target": "c0-2-4-5-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-7-8-10",
+      "target": "c0-2-4-5-7-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-4-6-7-8-10",
+      "target": "c0-2-4-6-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-4-5-7-8-10",
+      "target": "c0-2-4-5-7-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-1-4-5-7-8-10",
+      "target": "c0-1-3-5-7-8-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-6-7-9-10",
+      "target": "c0-2-4-6-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c0-2-3-6-7-9-10",
+      "target": "c0-2-3-5-7-9-10",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-4-5-7-9-11",
+      "target": "c1-2-4-5-7-9-11",
+      "group": "misc"
+    },
+    {
+      "source": "c1-3-4-5-7-9-11",
+      "target": "c1-3-4-6-7-9-11",
+      "group": "misc"
+    }
+  ]
+}

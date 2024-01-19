@@ -1,3 +1,4 @@
+
 use cobwebs_2024::{crossings, crossings_with_permutation, Swapper};
 use permutation::Permutation;
 use ::rand::distributions::Uniform;
@@ -9,7 +10,6 @@ use macroquad::prelude::*;
 use nalgebra::vector;
 
 use serde::Deserialize;
-use serde_json::Error;
 use std::collections::HashMap;
 use std::fs::File;
 use std::io::BufReader;
@@ -35,15 +35,10 @@ struct GraphData {
 
 #[macroquad::main("fdg demo")]
 async fn main() {
-    let file = File::open("examples/scales4.json").unwrap();
-    // let file = file.unwrap();
-
+    let file = File::open("examples/miserables.json").unwrap();
     let reader = BufReader::new(file);
 
-    let graph_data = serde_json::from_reader(reader);
-    let graph_data: GraphData = graph_data.unwrap();
-
-    // otherwise, continue
+    let graph_data: GraphData = serde_json::from_reader(reader).unwrap();
 
     let mut graph = Graph::<String, String>::new();
     let mut nodes = HashMap::new();
@@ -66,16 +61,17 @@ async fn main() {
     let mut force = FruchtermanReingold {
         conf: FruchtermanReingoldConfiguration {
             scale: 400.0,
-            cooloff_factor: 0.65,
+            cooloff_factor: 0.5,
+
             ..Default::default()
         },
         ..Default::default()
     };
 
-    let mut swapper = Swapper::new(4, 20, 500, 10);
+    let mut swapper = Swapper::new(3, 5, 30, 10);
 
     let mut i = 0;
-    let skip = 5;
+    let skip = 2;
 
     loop {
         // apply the fruchterman-reingold force 4 times
